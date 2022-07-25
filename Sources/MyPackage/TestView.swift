@@ -12,7 +12,9 @@ struct TestView: View {
         VStack {
             Text("Hello, World!")
             
-            Text("This is my package test 1.0.1!")
+            Text("This is my package test 1.1.0!")
+            
+            Divider()
             
             Button {
                 
