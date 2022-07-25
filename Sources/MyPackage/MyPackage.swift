@@ -1,6 +1,12 @@
-public struct MyPackage {
-    public private(set) var text = "Hello, World!"
+import SwiftUI
 
+public struct MyPackage: View {
+    
     public init() {
+        
+    }
+    
+    public var body: some View {
+        TestView()
     }
 }
