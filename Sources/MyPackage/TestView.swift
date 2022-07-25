@@ -11,10 +11,17 @@ struct TestView: View {
     var body: some View {
         VStack {
             Text("Hello, World!")
-            Text("This is my package test!")
+            
+            Text("This is my package test 1.0.1!")
+            
+            Button {
+                
+            } label: {
+                Text("Sample Button")
+            }
         }
         .padding()
-        .background(Color.red)
+        .background(Color.green)
         .cornerRadius(15)
     }
 }
